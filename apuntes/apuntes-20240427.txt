@@ -1,0 +1,100 @@
+definiciones:
+    CSS: conjunto de reglas que definen la apariencia del archivo html
+    Regla CSS: Es donde se definen las propiedades que tendrá un elemento HTML y la forma de relacionarlo. (Consta de 2 partes: selector y declaración)
+
+
+generalidades:
+    -siempre el html va a tomar la hoja de estilos más cercana: 1.Inline 2.Internos 2.Externos(vamos a preferir usar externos)
+    -mailing no permite externos ni internos
+    -ID se debe aplicar sólo a un elemento!!!!!!
+
+    JERARQUIA
+        ID > clase > HTML
+        definidos > heredados
+
+    ESTRUCTURA BASICA DEL DOCUMENTO:
+        <!DOCTYPE> define la version del html
+        <html>
+            <head>
+                <title></title>
+                <link rel="tylesheet" type="text/css" href="estilos.css" />
+            </head>
+            <body>
+                <h1> ENCABEZADO DE NIVEL 1 -SOLO UNO POR PAGINA- </h1>
+                <h2> la cantidad que se quiera </h2>
+                <p> texto </p>
+            </body>
+            <!-- ME FALTA UNA COSA MAS -->
+        </html>
+
+
+    RESET!:
+        www.aluracursos.com/blog/reset-css-que-es-ejemplos-como-crear-y-utilizar
+
+
+Sintaxis y ortografía - ejemplos:
+
+    EN EL CSS:
+
+    etiqueta {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #0000000;
+    }
+
+    .clase {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #0000000;
+    }
+
+    #ID {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #0000000;
+    }
+
+    EN EL HTML:
+        LINKEO
+            EXTERNAS
+            <head>
+                <link ="stylesheet" type="text/css"
+                href="http://www.w3.org/styles/slidy.css" />
+            </head>
+
+            INTERNAS
+            <head>
+                <style type="text/css">
+                    <!--las reglas de los estilos-->
+                </style>
+            </head>
+
+            INLINE
+            <p style="color:#066;"> Loremp ipsum dolor sit amet </p>
+
+
+    <div>
+    <div class="boton">
+    <div id="boton">
+
+
+----------
+
+Armar el mapa del sitio (herramienta en diapositiva de clase 3)
+Armar el wireframe
+Identificar o Transformar a etiquetas
+Escribir reglas de estilos
+
+
+
+Estructura, Contenidos, estilo
+
+----------------
+
+PARA EL TP:
+
+IMAGENES DE LOS PERSONAJES PARA EL REPARTO ES MAS ALLA DE LAS 12 IMAGENES
+IMAGEN DEL AUTOR
+NO MENOS DE 12 IMAGENES PARA LAS OTRAS COSAS
+
+

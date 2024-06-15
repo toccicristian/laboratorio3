@@ -1,0 +1,107 @@
+
+
+    PARCIAL 8 DE JUNIO!!!!!!!!!!
+        DE LA 1 A LA 6 SACANDO EL MATERIAL COMPLEMENTARIO
+        (pdf 1 al 6)
+        codigos de error!!!
+        css
+            que es css? que es una regla de css?
+            como esta compuesta?
+
+
+
+herramientas utilizables:
+    optimizar para web: photopea
+    galeria lightbox: https://lokeshdhakar.com/projects/lightbox2/
+
+
+FORMULARIOS
+    <form action="pagina/servicio" method="GET o POST">
+        <button>
+        <input> <!-- atributos:
+                    required, placeholder;
+                    radio, checked;
+                    checkbox;
+                    infaltables: type, name... ver la diapositiva de formularios!
+
+                    type="password" (ejemplo)
+                    type="submit" value="texto del boton"
+                    type="reset"
+                    type="hidden"
+                    type="file"
+                    type="number"
+                        atributos reservados:
+                            Max, Min, Step
+                    type="date"
+                    tel, email, url, search, color;
+                    ejemplo de type=select:
+                        <select name="provincia">
+                            <option value="ba">Buenos Aires(/option>
+                            <option value="caba">CABA</option>
+                            <option value="cor">Cordoba</option>
+                        </select>
+                    ejemplo de textarea:
+                        <!-- buscar!!! -->
+
+
+                    -->
+    </form>
+    <!-- SI NO QUEREMOS QUE EL FORMULARIO ENVIE DATOS A OTRA PAGINA
+        (PORQUE SIMPLEMENTE LOS QUEREMOS MANEJAR INTERNAMENTE CON JAVASCRIPT)
+        SE SUELE PONER action="#"
+    -->
+
+metodos del formulario:
+    METODO GET: EVITAR PARA DATOS SENSIBLES
+        https://urlpagina?var1=valor1&var2=valor2&...
+    METODO POST:
+        los datos viajan en la cabecera del paquete.
+        la cabecera es visible por gente "escuchando" en la misma red.
+
+imagenes, tamaño maximo 300KB
+
+en el Wireframe, en los cuadros se traza una X
+si alli corresponde una imagen.
+
+para superponer imagenes,
+se trae una imagen como fondo desde el estilo
+    background-image: url("ruta/archivo.jpg");
+    background-repeat: no-repeat;
+y la otra se trae como imagen.
+
+el <div> es un elemento por default de bloque
+
+
+<meta name = "description" content= "descripcion que apareceria en el buscador">
+
+<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+
+
+
+
+flex:
+    convierte a los elementos dentro del contenedor flex
+    en flexibles
+
+    flex-direction: row, row-reverse, column, column-reverse
+        el main axis por default es row (horizontal)
+
+    justify-content: center;
+
+
+
+cortes: minimo 3:
+    desktop 1300px
+
+    tablets 768px
+        @media (max-width: 768px){}
+    smartphone 480px
+        @media (max-width: 480px){}
+            o
+        @media (max-width: 576px){}
+
+
+LIGHTBOX:
+    data-lightbox="nombredegaleria"  <!-- este dato le va a decir a lightbox que son parte de la misma galeria las imagenes -->
+
+
