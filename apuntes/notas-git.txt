@@ -1,0 +1,76 @@
+
+    RAMA modeloTest :
+            en el paquete models creamos los modelos
+
+--------------------------------------
+ANTES DE EMPEZAR A TRABAJAR 
+ENTER
+git status
+git pull origin <nombre de la branch>
+        
+--------------------------------------
+AL TERMINAR LOS CAMBIOS Y TODO
+git add <nombrearchivo>
+git commit -m "comentario acerca de los cambios addeados"
+git push origin <branchenlaqueestoyparadoehiceloscambios>
+--------------------------------------
+LUEGO DE MERGEAR EN GITHUB
+
+cambiarse a la master:
+git checkout master
+
+pullear los cambios de master:
+git pull origin master
+
+y ahora se podria eliminar la rama mergeada:
+git branch -D <nombredelaramaaeliminar>
+
+
+---------------------------------------
+    NOTAS:    
+    GIT NO CAMBIARSE DE RAMA SI HAY CAMBIOS QUE COMITTEAR
+    
+    GIT COMANDOS:
+    git clone
+        (para clonar el proyecto)
+    git status
+        (para ver la branch en la que estoy por ejemplo)
+
+    git branch <nombre de rama>
+        crea una rama nueva igual a la rama en la que uno esta parado
+    git branch
+        muestra las ramas
+    git checkout <rama>
+        cambia a esa rama
+    git checkout -b <rama>
+	crea rama y cambia a esta rama
+    git branch -D <nombre de la branch>
+        borra la branch
+
+    git add <nombrearchivo>
+        agrega al modelo final que se va a subir
+    git commit -m "comentario corto" 
+        commitea lo que hice una vez que lo addie (hacer cada vez que se pueda al redondear algo)
+    git log
+        muestra el historial de commits
+
+    git push origin <nombre de la branch>
+        esto sube a github los commits
+    git pull origin <nombre de la branch>
+        esto baja de github los commits de la branch
+        HACER SIEMPRE ANTES DE EMPEZAR A TRABAJAR
+
+    git stash -a
+        aparta los cambios
+----------------------------
+
+conectar un repositorio local en uso con un repositorio nuevo remoto
+    git remote add origin <remote_repo_URL>
+    git push --all origin
+
+si se quiere conectar todas las ramas locales ya existentes al nuevo remoto
+    git push --all --set-upstream origin
+
+
+
+
